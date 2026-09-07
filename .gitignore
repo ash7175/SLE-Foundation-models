@@ -1,0 +1,26 @@
+# Data files (raw and large processed)
+data/raw/
+data/processed/*.h5ad
+data/processed/*.h5
+data/processed/*.zarr
+
+# Results (generated figures/tables — keep if small, ignore if large)
+results/figures/*.png
+results/figures/*.pdf
+results/figures/*.svg
+
+# Model checkpoints (can be huge)
+models/*.pt
+models/*.bin
+models/*.ckpt
+
+# Python/Jupyter junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
