@@ -1,15 +1,15 @@
-# Data files (raw and large processed)
+# Data files 
 data/raw/
 data/processed/*.h5ad
 data/processed/*.h5
 data/processed/*.zarr
 
-# Results (generated figures/tables — keep if small, ignore if large)
-results/figures/*.png
+# Results 
+
 results/figures/*.pdf
 results/figures/*.svg
 
-# Model checkpoints (can be huge)
+# Model checkpoints 
 models/*.pt
 models/*.bin
 models/*.ckpt
